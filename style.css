@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar-top{
+    background-color:whitesmoke;
+    height: auto;
+    margin-bottom: 4px;
+}
+.nav-bar-page{
+    display: flex;
+}
+#btn3{
+    width: 100px;
+    height: 36px;
+    background-color: rgb(3, 3, 167);
+    border: none;
+    border-radius: 20px;
+    margin: 3px;
+}
+#btn3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#btn3 a:hover{
+  color:rgb(224, 28, 175);
+  text-shadow: 2px 1px 5px blue;
+}
+.icons{
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.icons i{
+    margin-left: 5px;
+}
+#navbar-color{
+    background-color: rgb(14, 5, 182)
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(251, 251, 253);
+}
+.nav-link:hover{
+    color:rgb(224, 28, 175);
+    text-shadow: 2px 1px 5px blue;
+}
+.main-containt{
+    background-color: white;
+}
+.container h1{
+  color: rgb(6, 32, 182);
+  font-size: 30px;
+}
+.home-content{
+    width: 100%;
+    height: 68vh;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    box-shadow: 0 0 10px rgb(0, 17, 255);
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+    
+}
+
+.menu-icon {
+  height: 24px;
+
+}
+
+.nav-link svg {
+  height: 20px;
+}
+#btn1 a{
+  color: white;
+}
+#btn1 button{
+    font-size: 18px;
+    color: rgb(10, 7, 212);
+    width: 150px;
+    height: 60px;
+    background-color: rgb(224, 28, 175);
+    border-radius: 10px;
+    border: 3px solid;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn1{
+    margin-top: 1px;
+  
+}
+#btn1 button:hover{
+    background-color: rgb(138, 17, 219);
+    box-shadow: 0 0 5px orangered;
+}
+.card{
+    box-shadow: 0 0 5px rgb(16, 29, 218);
+}
+.card:hover{
+  box-shadow: 0 0 3px 0 blue, 2px 2px 3px 2px rgb(224, 7, 224);
+}
+.card h5{
+    font-weight: bold;
+}
+.card p{
+    font-weight: 200;
+}
+.btn{
+  background-color: white;
+}
+.btn a{ 
+  color: blue;
+  text-decoration: none;
+  border: none;
+}
+
+.btn a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  padding-top: 5px;
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.btn a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+.btn2{
+  background-color: white;
+  border: none;
+  
+}
+.see-more-btn1{
+  text-align: center;
+}
+.see-more-btn2{
+  margin: 10px;
+  text-align: center;
+}
+.btn2 a{ 
+  color: blue;
+  text-decoration: none;
+  border: none;
+}
+
+.btn2 a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  padding-top: 10px;
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.btn2 a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+.all-category{
+  margin-top: 10px;
+  margin-left: 36px;
+}
+.all-category button{
+  border: 1px solid green;
+  margin-top: 20px;
+}
+.all-category a{
+  background-color: #0041f5;
+}
+#slider{
+    margin-top: 50px;
+}
+#footer {
+    padding: 0 0 20px 0;
+    color: #fafafa;
+    font-size: 14px;
+    background: rgb(33, 19, 167);
+  }
+  #footer .footer-top {
+    padding: 40px 0 20px 0;
+    background: rgb(196, 203, 221);
+    color: blue;
+  }
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-contact h3 {
+    color: rgb(10, 10, 114);
+  }
+  #footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 200;
+  }
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: rgb(6, 6, 75);
+  }
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 5px;
+  }
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: rgb(0, 4, 245);
+    font-size: 20px;
+    line-height: 1;
+  }
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  #footer .footer-top .footer-links ul a {
+    color: rgb(2, 2, 46);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #f500d4;
+  }
+  #footer .footer-top .social-links a:hover {
+    background: #f500c0;
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer .copyright {
+    text-align: center;
+    float: left;
+  }
+  #footer .credits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    
+  }
+  #footer .credits a{
+      color: rgb(219, 10, 219);
+  }
+
+  .d-inline a {
+    cursor: pointer;
+  }
+
+  .logo{
+    height: 90px;
+    width: 100%;
+  }
+  .logo-wrapper {
+    width: 100%;
+  }
+  .navbar {
+    flex-wrap: no-wrap;
+  }
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) { 
+  
+.logo{
+    height: 100px;
+    width: 300px;
+  }
+.card{
+    min-height: 27vh;
+}
+}
